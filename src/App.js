@@ -1,11 +1,14 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import Grid from "./components/Grid/Grid";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Header />
+      <Grid />
+
+      <div className="container"></div>
     </div>
   );
 }
-
-export default App;
