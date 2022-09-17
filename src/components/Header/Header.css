@@ -5,12 +5,12 @@
     margin: 26px 0;
 }
 
-.header.container {
+.header .container {
     position: relative;
     height: 100%;
 }
 
-.header.container img {
+.header .container img {
     position: absolute;
     top: 0;
     bottom: 0;
