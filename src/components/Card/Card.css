@@ -1,0 +1,34 @@
+.card {
+    box-sizing: border-box;
+    width: calc(20% - 24px) ;
+    border: 2px solid #64c940;
+    margin: 12px;
+    background-color: #333;
+    padding: 12px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p.info-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p.info-name span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card p.info-generics {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card p.info-generics span {
+    font-weight: normal;
+}
